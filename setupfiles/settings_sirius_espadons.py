@@ -2,7 +2,7 @@ import inspect
 import nextrapol as nx
 from dotenv import load_dotenv
 
-import nextrapol.units as nu
+import nextrapol.units as un
 import nextrapol.continuum as continuum
 
 
@@ -15,6 +15,8 @@ class SettingsSiriusEspadons(nx.settings_espadons.SettingsReferenceEspadons):
     BIG_PSEUDO_FLAT = False # do not use the BIG_PSEUDO_FLAT
 
     ORDERS = list(range(24, 57))
+
+    DELTA_VRAD_COMMON_GRID = None # 2 * (un.KM / un.S) / un.C_LIGHT
 
     CONTINUUM_METHOD_CLASS = continuum.GlobalMaskedContinuum
     
