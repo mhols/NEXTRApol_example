@@ -16,7 +16,7 @@ class SettingsSiriusEspadons(nx.settings_espadons.SettingsReferenceEspadons):
 
     ORDERS = list(range(24, 57))
 
-    DELTA_VRAD_COMMON_GRID = None # 2 * (un.KM / un.S) / un.C_LIGHT
+    DELTA_VRAD_COMMON_GRID = 0.5 * un.KM / un.S
 
     CONTINUUM_METHOD_CLASS = continuum.GlobalMaskedContinuum
     
