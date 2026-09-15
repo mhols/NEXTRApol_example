@@ -1,4 +1,3 @@
-import inspect
 import nextrapol as nx
 from dotenv import load_dotenv
 

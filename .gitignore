@@ -266,3 +266,5 @@ venv_nextrapol/bin/volint
 venv_nextrapol/bin/wcslint
 venv_nextrapol/share/man/man1/ipython.1
 venv_nextrapol/share/man/man1/ttx.1
+venv_nextrapol/bin/checknight
+venv_nextrapol/bin/initialize
